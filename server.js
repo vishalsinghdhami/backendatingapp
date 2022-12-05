@@ -5,7 +5,7 @@ const{v1:uuidv4} =require("uuid")
 const jwt=require('jsonwebtoken')
 const cors=require('cors')
 const bcrypt = require('bcrypt')
-require('dotenv').config()
+ 
 const PORT =process.env.PORT;
 const uri=process.env.URI
 //import mongoose from "mongoose"
